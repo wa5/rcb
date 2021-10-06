@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+<style>
+.box{
+    background-color: brown;
+    color: white;
+    font-size: 60px;
+    display: none;
+    
+}
+
+@media (max-width:300px)
+{
+    #item-1{
+        display: block;
+        background-color: tomato;
+    }
+}
+@media (max-width:500px) and (min-width:301px)
+{
+    #item-2{
+        display: block;
+        background-color: rgb(108, 255, 71);
+    }
+}
+@media (max-width:900px) and (min-width:501px)
+{
+    #item-3{
+        display: block;
+        background-color: rgb(166, 71, 255);
+    }
+}
+
+
+@media (min-width:901px){
+    #item-4{
+        display: block;
+        background-color: rgb(255, 71, 80);
+    }
+}
+</style>
+
+
+    
+       <div class="box" id="item-1">im a mobile screen with starts 0 to 300px</div>
+       <div class="box" id="item-2">im a tabe screen with starts 3001p to 500px</div>
+       <div class="box" id="item-3">im a desktop screen with starts 501 to 900px</div>
+       <div class="box" id="item-4">im a tv  screen with starts 901px</div>
+
+
+
+    </body>
+</html>
