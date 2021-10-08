@@ -1,0 +1,32 @@
+.root1 {
+  background-color: yellow;
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+}
+
+.root2 {
+  background-color: #00ff15;
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+}
+
+.root3 {
+  background-color: #49493d;
+  font-size: 80px;
+  font-weight: 500;
+  color: white;
+}
+
+.root4 {
+  background-color: #ff5e00;
+  font-size: 70px;
+  font-weight: 500;
+  color: white;
+}
+
+h2 {
+  font-size: 90px;
+}
+/*# sourceMappingURL=para.css.map */

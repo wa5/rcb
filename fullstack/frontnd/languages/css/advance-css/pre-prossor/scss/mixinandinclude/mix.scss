@@ -1,0 +1,24 @@
+
+
+
+@mixin  vijay{
+    background-color: blue;
+    font-size: 40px;
+    font-weight: 600px;
+    color: white;
+}
+
+
+
+.root1{
+    @include vijay;
+}
+.root2{
+    @include vijay;
+}
+.root3{
+    @include vijay;
+}
+.root4{
+    @include vijay;
+}

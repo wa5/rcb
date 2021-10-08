@@ -1,0 +1,27 @@
+
+
+
+@mixin  disha($bk,$brashed,$comb,$makup){
+    background-color: $bk;
+    font-size: $brashed;
+    font-weight: $comb;
+    color: $makup;
+}
+
+
+
+.root1{
+    @include disha(yellow,50px,500,white);
+}
+.root2{
+    @include disha(rgb(0, 255, 21),50px,500,white);
+}
+.root3{
+    @include disha(rgb(73, 73, 61),80px,500,white);
+}
+.root4{
+    @include disha(rgb(255, 94, 0),70px,500,white);
+}
+h2{
+    font-size: 40px+50px;
+}
