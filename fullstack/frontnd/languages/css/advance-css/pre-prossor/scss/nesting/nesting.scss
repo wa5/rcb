@@ -1,0 +1,24 @@
+
+
+.parent{
+    .chil1{
+         h2{
+            background-color: blue;
+         }
+
+    }
+    .chil2{
+        .grandchild{
+            h2{
+                background-color: green;
+            }
+        }
+        .grandchild2{
+            h2{
+                background-color: yellow;
+            }
+        }
+    }
+
+
+}

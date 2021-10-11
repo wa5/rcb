@@ -1,0 +1,25 @@
+@import './common/bacColo';
+@import './common/Fsize';
+@import './common/textcolor';
+
+
+@mixin conm{
+    color: $tc;
+    font-size: $fs;
+    background-color: $bg1;
+}
+
+
+.roo1{
+@include conm;
+
+}
+.roo2{
+    @include conm; 
+}
+.roo3{
+    @include conm;
+}
+.roo4{
+    @include conm;
+}

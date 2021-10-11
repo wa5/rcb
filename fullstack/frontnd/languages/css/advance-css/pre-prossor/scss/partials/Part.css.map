@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAYA,AAAA,KAAK,CAAA;EAND,KAAK,EGNL,KAAK;EHOL,SAAS,EEPT,IAAI;EFQJ,gBAAgB,ECRf,GAAG;CDeP;;AACD,AAAA,KAAK,CAAA;EAVD,KAAK,EGNL,KAAK;EHOL,SAAS,EEPT,IAAI;EFQJ,gBAAgB,ECRf,GAAG;CDkBP;;AACD,AAAA,KAAK,CAAA;EAbD,KAAK,EGNL,KAAK;EHOL,SAAS,EEPT,IAAI;EFQJ,gBAAgB,ECRf,GAAG;CDqBP;;AACD,AAAA,KAAK,CAAA;EAhBD,KAAK,EGNL,KAAK;EHOL,SAAS,EEPT,IAAI;EFQJ,gBAAgB,ECRf,GAAG;CDwBP",
+    "sources": [
+        "Part.scss",
+        "common/_bacColo.scss",
+        "common/_Fsize.scss",
+        "common/_textcolor.scss"
+    ],
+    "names": [],
+    "file": "Part.css"
+}

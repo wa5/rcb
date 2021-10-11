@@ -1,0 +1,12 @@
+.parent .chil1 h2 {
+  background-color: blue;
+}
+
+.parent .chil2 .grandchild h2 {
+  background-color: green;
+}
+
+.parent .chil2 .grandchild2 h2 {
+  background-color: yellow;
+}
+/*# sourceMappingURL=nesting.css.map */
