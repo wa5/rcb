@@ -13,14 +13,21 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-      
-<h1>heloo all</h1>
-<button onclick="calu()">click me to call js</button>
+       <h1>ke;;</h1>
 
-<script src="script.js">
+       <button onclick="call()">click me to call js file</button>
+        
+        <script>
+function call(){
+  
+    import('./math/add.js').then((data)=>{
+        console.log(data.add(2,3))
+    })
+
+    console.log()
+}
 
 
-
-</script>
+        </script>
     </body>
 </html>
