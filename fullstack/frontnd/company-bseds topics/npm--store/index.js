@@ -1,3 +1,7 @@
+
+function sm(){
+
+
 var nodemailer=require('nodemailer')
 
 var transprter=nodemailer.createTransport({
@@ -23,3 +27,4 @@ transprter.sendMail(mailoptions,(err,info)=>{
         console.log('mail send')
     }
 })
+}
