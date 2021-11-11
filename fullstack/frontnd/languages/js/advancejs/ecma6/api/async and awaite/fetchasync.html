@@ -1,0 +1,16 @@
+<script>
+    var g=9
+async function calling(){
+    var data=await fetch('https://api.github.com/users')
+    var data2=await data.text()
+   // console.log("im data give",data2)
+    return data2
+}
+var m=(async ()=>{
+   var k=  await calling()
+   return k
+})()
+//calling().then((g)=>{console.log("-----------",g)})
+console.log(m)
+
+</script>
