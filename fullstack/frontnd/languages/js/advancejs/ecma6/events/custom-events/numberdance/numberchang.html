@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+     <div style="text-align: center;">
+        <button id="root">click me</button>
+<h1>result</h1>
+     </div>
+        
+        
+        <script >
+var numertag=document.getElementById('root')
+let result=document.querySelector('h1')
+
+
+numertag.addEventListener('click',()=>{
+    var ran=Math.floor(Math.random()*4)
+    var arrc=['red','green','blue']
+    let data={
+        number:ran,
+        backgroundColor:arrc[ran],
+        color:'white'
+    }
+    changernumer(data)
+})
+
+
+
+
+function changernumer(data){
+    console.log(data)
+    const myevent=new CustomEvent('DnD',{
+        detail:data
+    })
+    result.dispatchEvent(myevent)
+}
+
+result.addEventListener('DnD',(e)=>{
+    console.log(e.detail)
+    let {number,backgroundColor,color}=e.detail
+    result.textContent=number
+    result.style.backgroundColor=backgroundColor
+    result.style.color=color
+})
+        </script>
+    </body>
+</html>

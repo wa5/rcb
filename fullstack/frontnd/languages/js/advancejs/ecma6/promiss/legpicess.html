@@ -1,0 +1,26 @@
+<script>
+
+function drishatreat(){
+    return new Promise((fullfill,notfullfill)=>{
+const mood=true
+setTimeout(()=>{
+    if(!mood){
+//console.log('tq drisha for leg piecss')
+fullfill('tq drisha for leg piecss')
+    }else{
+        //console.log('vr bad ')
+        notfullfill('vr bad ')
+    }
+},2000)
+    })
+}
+
+var p=drishatreat().then((data)=>{
+    console.log(data)
+    return data
+ }).catch((data2)=>{
+    console.log(data2)
+    return data2
+ })
+console.log(p)
+</script>

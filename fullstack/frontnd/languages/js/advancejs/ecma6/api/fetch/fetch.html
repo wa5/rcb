@@ -1,0 +1,14 @@
+<script>
+
+
+var data=fetch('https://api.github.com/users').then((data)=>{
+    return data.text()
+}).then((data2)=>{
+    console.log(data2)
+    return data2
+})
+console.log(data)
+
+
+
+</script>
