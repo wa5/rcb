@@ -2,6 +2,10 @@ require('dotenv').config()
 var express=require('express')
 var app=express()
 
+//dbconncection
+require('./config/db.config')
+
+
 app.set('port',process.env.PORT||8009)
 var ejs=require('ejs')
 var path=require('path')

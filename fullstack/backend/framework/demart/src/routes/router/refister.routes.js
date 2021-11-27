@@ -1,20 +1,12 @@
 var express=require('express')
 var Router=express.Router()
-
+var {getRegister,postregister,putRegister,deletRegister}=require('../../controller/register.Ctrl')
 
 Router.route('/register')
-.get((req,res)=>{
-    res.render('register')
-})
-.put((req,res)=>{
-    res.send('hello')
-})
-.delete((req,res)=>{
-    res.send('hello')
-})
-.post((req,res)=>{
-    res.send('hello')
-})
+.get()
+.put()
+.delete()
+.post()
 
 
 
