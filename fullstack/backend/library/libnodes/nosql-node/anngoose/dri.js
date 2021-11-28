@@ -11,4 +11,5 @@ class Mbile{
     }
   
 }
+var sams=new Mbile({})
 module.exports=Mbile
